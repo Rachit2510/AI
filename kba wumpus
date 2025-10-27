@@ -50,3 +50,8 @@ for question, symbol in queries.items():
         print(f"{question} → YES (KB entails {symbol})")
     else:
         print(f"{question} → NO (KB entails ¬{symbol})")
+
+
+Output:
+Is there a Pit at (1,2)? → NO (KB entails ¬P12)
+Is there a Wumpus at (2,2)? → NO (KB entails ¬W22)
